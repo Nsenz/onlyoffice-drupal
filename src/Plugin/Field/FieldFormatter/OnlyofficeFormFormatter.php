@@ -203,6 +203,7 @@ class OnlyofficeFormFormatter extends OnlyofficeBaseFormatter {
       $media->getOwner()->getDisplayName(),
       $this->dateFormatter->format($media->getCreatedTime(), 'short'),
       TRUE,
+      TRUE,
       OnlyofficeUrlHelper::getCallbackFillFormUrl($media),
       'edit',
       $this->languageManager->getCurrentLanguage()->getId(),
