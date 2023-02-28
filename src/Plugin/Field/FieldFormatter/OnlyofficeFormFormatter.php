@@ -210,6 +210,9 @@ class OnlyofficeFormFormatter extends OnlyofficeBaseFormatter {
       $account->id(),
       $account->getDisplayName(),
       NULL,
+      TRUE,
+      TRUE,
+      TRUE,
       $editor_width,
       $editor_height
     );
